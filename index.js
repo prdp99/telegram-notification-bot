@@ -40,7 +40,6 @@ app.post(URI, async (req, res) => {
     function checkPhoneLinked() {
       //check in DB
       //return true or false
-      console.log("phone chekced");
       return true;
     }
     const isLinked = checkPhoneLinked();
